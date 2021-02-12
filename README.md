@@ -4,10 +4,10 @@
  To download MinGW:
  https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/
  
- After installing select
+ After installing select:
   mingw32-gcc-g++-bin
-   mark for installation
-   select installation in top menubar --> Apply changes
+   . mark for installation
+   . select installation in top menubar --> Apply changes
  
  Open Power shell 
   check using:
