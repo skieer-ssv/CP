@@ -40,9 +40,9 @@ int main(){
 //Calculations are always performed in higher datatypes
 //double>float> long long int >long int >int >char
 
-// 10^-9<int<10^9
-// 10^-11<long int<10^11
-// 10^-18<long long int<10^18
+// -10^9<int<10^9
+// -10^11<long int<10^11
+// -10^18<long long int<10^18
 
 // long long int n = 1LL*100000*1000000;
 
