@@ -2,15 +2,15 @@
 
 ### Content:
 
-1. [Conditionals in C++](#conditionals-in-c++)
+1. [Conditionals in C++](#conditionals-in-c)
     - [If Else-If Else](#if-else-if-else)
     - [Switch Case](#switch-case)
     - [Ternary](#ternary)
-2. [Loops in C++](#loops-in-c++)
+2. [Loops in C++](#loops-in-c)
     - [For Loop](#for-loop)
     - [While Loop](#while-loop)
     - [Do While Loop](#do-while-loop)
-3. [Functions in C++](#functions-in-c++)
+3. [Functions in C++](#functions-in-c)
 4. [Problem Solved](#problem-solved)
     - [Solution](#solution)
 
@@ -137,33 +137,33 @@ https://www.codechef.com/problems/ADAKNG
 using namespace std;
 
 int main () {
-	int t = 1;
-	cin >> t;
+    int t = 1;
+    cin >> t;
 
-	while (t--) {
-		int r, c, k, k1, k2, minNumOfSteps;
-		int ans = 0;
-		cin >> r >> c >> k;
+    while (t--) {
+        int r, c, k, k1, k2, minNumOfSteps;
+        int ans = 0;
+        cin >> r >> c >> k;
 
-		for (int i = 1; i <= 8; ++i) {
-			for (int j = 1; j <= 8; ++j) {
-				k1 = abs(r - i);
-				k2 = abs(c - j);
+        for (int i = 1; i <= 8; ++i) {
+            for (int j = 1; j <= 8; ++j) {
+                k1 = abs(r - i);
+                k2 = abs(c - j);
 
-				minNumOfSteps = max(k1, k2);
+                minNumOfSteps = max(k1, k2);
 
-				if (minNumOfSteps <= k) {
-					++ans;
-				}
-			}
-		}
+                if (minNumOfSteps <= k) {
+                    ++ans;
+                }
+            }
+        }
 
-		cout << ans << '\n';
+        cout << ans << '\n';
 
-	}
+    }
 
 
-	return 0;
+    return 0;
 }
 ```
 
