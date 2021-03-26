@@ -1,6 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/* 
+    Functions Example:
+*/
+
+int mul(int a, int b) {
+    return a * b;
+}
+
 
 int main() {
 
@@ -50,30 +58,45 @@ int main() {
     // LOOPS IN CPP
 
     /*
-     *  1. If Else-If Else
+     *  1. For Loop
     */
 
     for (initialization; condition; increment_decrement) {
         // Code to be executed repeatedly until the condition is false
     }
 
+    /*
+     *  2. While Loop
+    */
 
     while (condition) {
-        // Code to be executed repeatedly
+        // Code to be executed repeatedly until the condition is false
     }
 
+    // Example:
 
     int t = 1;
     cin >> t;
 
     while (t--) {
-        // CB
+        // Code to run `t` times
         cout << t << '\n';
     }
+
+    /*
+     *  3. Do While Loop
+    */
 
     do {
         // Code to be executed repeatedly
     } while (condition);
+
+
+    // FUNCTIONS IN C++
+
+    /* 
+        Syntax:
+    */
 
     datatype func_name(datatype1 arg1, datatype2 arg2) {
         return value;
