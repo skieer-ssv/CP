@@ -178,7 +178,6 @@ cout << "String is not empty.";
 ## Secret String Problem:
 
 [Secret String](secretString.cpp)
-
 <br/>
 
 ## Speaker:
