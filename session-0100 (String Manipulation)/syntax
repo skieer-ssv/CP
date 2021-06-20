@@ -1,0 +1,34 @@
+
+getline(cin, variable_name);
+
+string_name.pop_back();
+
+string_name.push_back('character');
+
+string_name.length();
+
+string_name.copy(char_array, index, n);
+
+string1.swap(string2);
+
+reverse(iterator_to_start, iterator_to_end);
+
+string_name.append("raw string");
+
+string_name.append(og_str, index, n);
+
+substr(index, length);
+
+string_name.insert(n, string_to_insert);
+
+string_name.find("sub_string");
+
+string_name.rfind("sub_string");
+
+string_name.replace(a, b, string_to_be_replaced);
+
+string_name.erase(index, n);
+
+string_name.clear();
+
+string_name.empty();
